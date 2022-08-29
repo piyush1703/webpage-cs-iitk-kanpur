@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style/stlecs.css">
+    
+    <script>
+function show(a)
+{
+    if(a==0)
+        document.getElementById("NAM").style.display="none";
+    else
+        document.getElementById("NAM").style.display="block";
+}
+</script>
+    <title>Counselling Service, IIT Kanpur</title>
+</head>
+<body>
+    <form method="post" action="css2.php">
+    <div class="heading"><img src="data:image/png;base64,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" height="100">  
+        <h1><u><b> Counselling Service</u></b></h1>
+    
+    <h2> <b>IIT Kanpur</b></h2>
+    <h4><pre><i>The Counselling Service is your home away from home.
+We are a team of professional counsellors, empathetic 
+students and faculty advisors to assist you emotionally and academically</pre></i></h4>
+   </div><hr>
+    <div class="contact">
+        <form id="contact">
+         <span class="head"> <h2> Contact Us</h2></span>
+          <fieldset>
+            <p><label><b>Can we know your name</b></label><br>
+            <input type="radio" name="nam" id="yes" value="YES" onclick="show(1)" required ><label for="yes">YES</label><br />
+            <input type="radio" name="nam" id="no" value="NO" onclick="show(0)"  ><label for="no">NO</label><br />
+        </fieldset>
+           <p id="NAM">First Name:<input name="name" id="n" type="text" placeholder="Enter your Good name"></p>
+           <p><label>Email Id: </label><input name="email" type="email" placeholder="Enter your Email Id" required></p>
+           <label>Message:</label>
+           <p> <textarea name="message" placeholder="You may write your any problem or suggestion to us" rows="10" cols="80" minlength="5"></textarea></p>
+           <p><input name="name" type="submit" placeholder="submit"></p>
+        </form>
+    </div>
+</body>
+</html>
